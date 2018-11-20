@@ -17,8 +17,8 @@ Los siguientes ejercicios los debes realizar en tu máquina real, no es necesari
 13. Crea la rama _**conflict**_ y cámbiate a ella con un solo comando. git checkout -b conflict 
 14. Crea tu propio conflicto al mezclar dos ramas! Para ello trabaja en el mismo fichero en dos ramas separadas y une (merge) las dos ramas. Arregla los conflictos y finaliza la unión. En el mundo real nunca intentarás crear un conflicto en una unión de ramas, pero es importante que no te sientas intimidado por los conflictos al realizar una unión de ramas y ser capaz de arreglarlos con confianza.
 
-- Estamos dentro de la rama conflic: nano best.txt contenido HOLA
-- Cambiamos a rama master con git checkout, nano best.txt contenido hola 
+- Estamos dentro de la rama conflic: nano best.txt contenido HOLA y hacemos commit
+- Cambiamos a rama master con git checkout, nano best.txt contenido hola y hacemos commit
 - git merge da problemas
 - git checkout --ours bext.txt , para arreglar manualmente el problema
   git add best.txt
